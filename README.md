@@ -1,2 +1,2 @@
 # powershell
-scripts for  windows systems
+scripts for  windows systems and aplications
