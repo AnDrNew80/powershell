@@ -93,7 +93,7 @@ Write-Output `n "[$(Get-Date -Format G)] =================Start script==========
 #$timeout 		- website url timeout response
 #$serviceName	- service name to restart
 
-CheckUrl "https://tetaTest.ad.test.com/hrm" "10000" "Tomcat8_5"
+CheckUrl "https://tetaTest.ad.test.com/test" "10000" "Tomcat8_5"
 
 
 Write-Output `n "[$(Get-Date -Format G)] ================== End script ==================" `n  >> $LogPath; 
