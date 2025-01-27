@@ -1,4 +1,4 @@
-	Set-ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy RemoteSigned
 Add-PsSnapin Microsoft.SharePoint.Powershell
 
  
@@ -21,7 +21,7 @@ $DeleteSiteBackup = "\\testserver\SharePoint_backup$\Site_collection_backup\"
 
 # Email settings - body from log file, subject depends on backup result   
 $From = "SHAREPOINT_BACKUPS_ <SHAREPOINT_BACKUPS@xyzexample.com>"
-$To = "abcd <abc.dtw@xyzexample.com>"
+$To = "abcd <abc.abc@xyzexample.com>"
 $SMTPServer = "smtp-xyzexample.com"
 $Subject = ""
 $Body= ""
