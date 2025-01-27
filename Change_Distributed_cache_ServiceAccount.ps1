@@ -7,7 +7,7 @@ $Farm=Get-SPFarm
 $CacheService = $Farm.Services | where {$_.Name -eq "AppFabricCachingService"}
 
 #Get the Managed account 
-$ManagedAccount = Get-SPManagedAccount -Identity "adtrw\webcons"
+$ManagedAccount = Get-SPManagedAccount -Identity "site_name"
 
 #Set Service Account for Distributed Cache Service
 $cacheService.ProcessIdentity.CurrentIdentityType = "SpecificUser"
