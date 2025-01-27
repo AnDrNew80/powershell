@@ -145,7 +145,7 @@ Write-Output `n "[$(Get-Date -Format G)] =================Start script==========
 
 # CheckUrl params: $url $timeout $serviceName $string(optional)
 
-CheckUrl "http://test:8080/web/guest/baza-wiedzy" "10000" "Liferay" "X-UA-Compatible"
+CheckUrl "http://test:8080/web/guest/test" "10000" "Liferay" "X-UA-Compatible"
 
 
 Write-Output `n "[$(Get-Date -Format G)] ================== End script ==================" `n  >> $LogPath; 
